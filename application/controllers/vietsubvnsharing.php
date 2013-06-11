@@ -21,7 +21,7 @@ class Vietsubvnsharing extends CI_Controller
 		
 		$html = file_get_html($urltemp);
 		$max = $ret = $html->find('ul.pager', 0)->last_child()->find('a', 0)->href;
-		
+		$
 		var_dump($pages);
 	}
 }
